@@ -34,7 +34,7 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
+  // DONE: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // The previous line of code threw an error when we changed the variable declaration from 'var' to 'let' due to the fact that variables declared by 'let' don't have a global scope.  console.log(rando) was outside of the block scope.
   console.log(viewed)
 
